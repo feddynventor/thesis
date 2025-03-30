@@ -1,5 +1,4 @@
 #import "front.typ": front
-#import "utils.typ": lista_acronimi
 
 #set text(lang: "it")
 #set page(
@@ -12,8 +11,7 @@
   ),
 )
 
-// Bibliography object
-// #let refs = bibliography("refs.bib")
+#pagebreak()  // fix export SVG
 
 #show: front.with(
   title: "Sistemi di controllo predittivi\nper la distribuzione video in streaming a bassa latenza:\nottimizzazione del processo di ingesting con supporto alla scalabilità in internet tramite CDN", 
@@ -28,11 +26,9 @@
   logo: image("assets/Poliba.png", width: 30%),
   supervisor: "Prof. Luca De Cicco",
   lang: "it",
+  bib: bibliography("bibliography.bib"),
   // co-supervisor: (),
-  // bib: refs,
 )
 
 #include "capitoli/abstract.typ"
 #include "capitoli/introduzione.typ"
-
-#lista_acronimi()
