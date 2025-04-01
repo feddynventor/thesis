@@ -9,7 +9,7 @@
 #pagebreak()  // fix export SVG
 
 #show: front.with(
-  title: "Sistemi di controllo predittivi\nper la distribuzione video in streaming a bassa latenza:\nottimizzazione del processo di ingesting con supporto alla scalabilità in internet tramite CDN", 
+  title: "Sistemi di controllo predittivi per la distribuzione video in streaming: ottimizzazione del processo di ingesting tramite Golang e TypeScript con supporto alla scalabilità in internet tramite CDN", 
   // title: "Sistemi di controllo predittivi\nper la distribuzione video in streaming a bassa latenza:\nimplementazione di un software di ingesting in Golang\ne un player per browser in TypeScript\ncon supporto alla scalabilità in internet tramite CDN", 
   candidate:(
     name: "Fedele Cavaliere",

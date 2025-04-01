@@ -5,3 +5,101 @@
     url = {https://www.example.com},
     note = {}
 }
+
+@misc{c1,
+    author = {AppLogic Networks},
+    title = {Sandvine's 2023 Global Internet Phenomena Report},
+    year = {2023},
+    url = {https://www.applogicnetworks.com/press-releases/sandvines-2023-global-internet-phenomena-report-shows-24-jump-in-video-traffic-with-netflix-volume-overtaking-youtube},
+}
+
+@inproceedings{1943552.1943572,
+    author = {Stockhammer, Thomas},
+    title = {Dynamic adaptive streaming over HTTP --: standards and design principles},
+    year = {2011},
+    isbn = {9781450305181},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/1943552.1943572},
+    doi = {10.1145/1943552.1943572},
+    abstract = {In this paper, we provide some insight and background into the Dynamic Adaptive Streaming over HTTP (DASH) specifications as available from 3GPP and in draft version also from MPEG. Specifically, the 3GPP version provides a normative description of a Media Presentation, the formats of a Segment, and the delivery protocol. In addition, it adds an informative description on how a DASH Client may use the provided information to establish a streaming service for the user. The solution supports different service types (e.g., On-Demand, Live, Time-Shift Viewing), different features (e.g., adaptive bitrate switching, multiple language support, ad insertion, trick modes, DRM) and different deployment options. Design principles and examples are provided.},
+    booktitle = {Proceedings of the Second Annual ACM Conference on Multimedia Systems},
+    pages = {133–144},
+    numpages = {12},
+    keywords = {3gpp, mobile video, standards, streaming, video},
+    location = {San Jose, CA, USA},
+    series = {MMSys '11}
+}
+@article{10.1145/2740070.2626296,
+    author = {Huang, Te-Yuan and Johari, Ramesh and McKeown, Nick and Trunnell, Matthew and Watson, Mark},
+    title = {A buffer-based approach to rate adaptation: evidence from a large video streaming service},
+    year = {2014},
+    issue_date = {October 2014},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {44},
+    number = {4},
+    issn = {0146-4833},
+    url = {https://doi.org/10.1145/2740070.2626296},
+    doi = {10.1145/2740070.2626296},
+    abstract = {Existing ABR algorithms face a significant challenge in estimating future capacity: capacity can vary widely over time, a phenomenon commonly observed in commercial services. In this work, we suggest an alternative approach: rather than presuming that capacity estimation is required, it is perhaps better to begin by using only the buffer, and then ask when capacity estimation is needed. We test the viability of this approach through a series of experiments spanning millions of real users in a commercial service. We start with a simple design which directly chooses the video rate based on the current buffer occupancy. Our own investigation reveals that capacity estimation is unnecessary in steady state; however using simple capacity estimation (based on immediate past throughput) is important during the startup phase, when the buffer itself is growing from empty. This approach allows us to reduce the rebuffer rate by 10-20\% compared to Netflix's then-default ABR algorithm, while delivering a similar average video rate, and a higher video rate in steady state.},
+    journal = {SIGCOMM Comput. Commun. Rev.},
+    month = aug,
+    pages = {187–198},
+    numpages = {12},
+    keywords = {video rate adaptation algorithm, http-based video streaming}
+}
+
+@inproceedings{2619239.2626296,
+    author = {Huang, Te-Yuan and Johari, Ramesh and McKeown, Nick and Trunnell, Matthew and Watson, Mark},
+    title = {A buffer-based approach to rate adaptation: evidence from a large video streaming service},
+    year = {2014},
+    isbn = {9781450328364},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/2619239.2626296},
+    doi = {10.1145/2619239.2626296},
+    abstract = {Existing ABR algorithms face a significant challenge in estimating future capacity: capacity can vary widely over time, a phenomenon commonly observed in commercial services. In this work, we suggest an alternative approach: rather than presuming that capacity estimation is required, it is perhaps better to begin by using only the buffer, and then ask when capacity estimation is needed. We test the viability of this approach through a series of experiments spanning millions of real users in a commercial service. We start with a simple design which directly chooses the video rate based on the current buffer occupancy. Our own investigation reveals that capacity estimation is unnecessary in steady state; however using simple capacity estimation (based on immediate past throughput) is important during the startup phase, when the buffer itself is growing from empty. This approach allows us to reduce the rebuffer rate by 10-20\% compared to Netflix's then-default ABR algorithm, while delivering a similar average video rate, and a higher video rate in steady state.},
+    booktitle = {Proceedings of the 2014 ACM Conference on SIGCOMM},
+    pages = {187–198},
+    numpages = {12},
+    keywords = {http-based video streaming, video rate adaptation algorithm},
+    location = {Chicago, Illinois, USA},
+    series = {SIGCOMM '14}
+}
+
+@INPROCEEDINGS{7552948,
+    author={Wang, Jiexi and Meng, Shengbin and Sun, Jun and Quo, Zongming},
+    booktitle={2016 IEEE International Conference on Multimedia and Expo (ICME)}, 
+    title={A general PID-based rate adaptation approach for TCP-based live streaming over mobile networks}, 
+    year={2016},
+    volume={},
+    number={},
+    pages={1-6},
+    keywords={Streaming media;Throughput;Servers;Adaptation models;Receivers;Delays;Protocols;TCP;live streaming;rate adaptation;video transmission;network},
+    doi={10.1109/ICME.2016.7552948}
+}
+
+@INPROCEEDINGS{5453873,
+    author={Kashyap, Akshay and Bing, Benny},
+    booktitle={Proceedings of the IEEE SoutheastCon 2010 (SoutheastCon)}, 
+    title={Efficient HD video streaming over the internet}, 
+    year={2010},
+    volume={},
+    number={},
+    pages={272-275},
+    keywords={High definition video;Streaming media;Internet;Bit rate;Bandwidth;Encoding;Web server;Quantization;Buffer overflow;Smoothing methods;1080p HD;video streaming;H.264;frame smoothing},
+    doi={10.1109/SECON.2010.5453873}
+}
+
+@INPROCEEDINGS{8784800,
+    author={Wang, Bo and Ren, Fengyuan and Zhou, Chao},
+    booktitle={2019 IEEE International Conference on Multimedia and Expo (ICME)}, 
+    title={Hybrid Control-Based ABR: Towards Low-Delay Live Streaming}, 
+    year={2019},
+    volume={},
+    number={},
+    pages={754-759},
+    keywords={Bit rate;Throughput;Delays;Quality of experience;Streaming media;Trajectory;Feedforward systems;HTTP adaptive bitrate streaming, low delay, interactive live streaming},
+    doi={10.1109/ICME.2019.00135}
+}
