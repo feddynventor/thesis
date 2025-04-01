@@ -132,7 +132,7 @@
     *#course* \
   ])
 
-  line(length: 90%)
+  align(center, line(length: 90%))
 
   v(40pt)
   align(center, text(size: 18pt, title, weight: "bold"))

@@ -4,11 +4,6 @@
 #set page(
   width: 210mm,
   height: 297mm,
-  margin: (
-    inside: 2.5cm,
-    outside: 2cm,
-    y: 1.75cm
-  ),
 )
 
 #pagebreak()  // fix export SVG
@@ -32,3 +27,5 @@
 
 #include "capitoli/abstract.typ"
 #include "capitoli/introduzione.typ"
+
+#include "bozza-indice.typ"
